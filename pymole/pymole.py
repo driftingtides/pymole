@@ -22,14 +22,14 @@ class model():
                  in_field,
                  in_source,
                  in_target,
-                 dx, dy, dz,
-                 nx, ny, nz,
-                 rx=1, ry=1, rz=1,
+                 dx, dy, dz,                                            # model grid cell dimensions
+                 nx, ny, nz,                                            # number of grid cells in model
+                 rx=1, ry=1, rz=1,                                      # graph theory refinement
                  in_skip=0,
-                 in_log=True,
-                 out_config='config.yaml',
-                 foldername='lazymole',
-                 exe_path=r'E:\Repositories\pymole\src\lazymole.exe'):
+                 in_log=True,                                           # Is K field logarithmic?
+                 out_config='config.yaml',                              # Name of configuration file output
+                 foldername='lazymole',                                 # Name of folder where output is saved
+                 exe_path=r'src\lazymole.exe'):                         # Location of executable.
         """
         Run LazyMole connectivity metric
 
