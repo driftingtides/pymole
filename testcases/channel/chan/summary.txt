@@ -1,0 +1,2 @@
+Minimum hydraulic resistance: 50317.0 
+Target ID: 1041 

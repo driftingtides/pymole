@@ -1,0 +1,4 @@
+src/
+testcases/test*
+.hg*
+.idea*

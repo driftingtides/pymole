@@ -1,0 +1,27 @@
+grid:
+  cell size:
+    dx: 1
+    dy: 1
+    dz: 0.5
+  dimensions:
+    nx: 40
+    ny: 20
+    nz: 10
+  refinement:
+    refx: 1
+    refy: 1
+    refz: 1
+input:
+  field:
+    file: field.dat
+    log: true
+    skip: 0
+  source:
+    file: source.dat
+  target:
+    file: target.dat
+output:
+  path:
+    file: path.dat
+  resistance:
+    file: hres.dat
